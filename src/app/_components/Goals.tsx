@@ -7,7 +7,7 @@ const Goals = (props: Props) => {
   return (
     <Card title="Goals">
       <div>
-        <ul className="list-inside list-disc">
+        <ul className="list-inside list-disc text-white">
           <li>Travel around the world</li>
           <li>Learn a new coding skill</li>
           <li>Read 50 books</li>
