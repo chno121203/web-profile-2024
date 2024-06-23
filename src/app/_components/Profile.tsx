@@ -21,7 +21,7 @@ const Profile = (props: Props) => {
       </div>
 
       <div className="py-10 text-center ">" May the force be with you "</div>
-      <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
+      <div className="p-6 mx-1 xl:mx-6 bg-neutral-100 rounded-md">
         <p>
           <b>Age:</b> 26
         </p>

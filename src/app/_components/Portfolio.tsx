@@ -23,7 +23,7 @@ const Portfolio = (props: Props) => {
               href="https://github.com/wu-web-camp/web-profile-2024"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-500"
+              className="bg-stone-500"
             >
               web-profile-2024 - Personal Website
             </a>
