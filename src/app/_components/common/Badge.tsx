@@ -4,7 +4,7 @@ type Props = {};
 
 const Badge = (props: React.PropsWithChildren<Props>) => {
   return (
-    <div className="bg-black text-white px-2 py-1 text-xs rounded">
+    <div className="bg-red-900 text-white px-2 py-1 text-xs rounded">
       {props.children}
     </div>
   );
