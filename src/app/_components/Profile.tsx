@@ -5,7 +5,7 @@ type Props = {};
 
 const Profile = (props: Props) => {
   return (
-    <div className="bg-stone-500 h-full p-4 rounded-xl px-4">
+    <div className="bg-black h-full p-4 rounded-xl px-4">
       <div className="flex justify-center items-center pt-4 pb-2">
         <Image
           src="/mypro.jpg"
@@ -16,20 +16,20 @@ const Profile = (props: Props) => {
         />
       </div>
       <div className="text-center">
-        <h1 className="text-2xl font-bold">Chakrit Norm</h1>
-        <p className="text-base">Software Engineer</p>
+        <h1 className="text-2xl font-bold text-white">Chakrit Norm</h1>
+        <p className="text-base text-white">Software Engineer</p>
       </div>
 
-      <div className="py-10 text-center ">" May the force be with you "</div>
-      <div className="p-6 mx-1 xl:mx-6 bg-neutral-100 rounded-md">
+      <div className="py-10 text-center  text-white">" May the force be with you "</div>
+      <div className="p-6 mx-1 xl:mx-6 bg-red-900 rounded-md">
         <p>
-          <b>Age:</b> 26
+          <b className="text-white">Age:</b> 26
         </p>
         <p>
-          <b>Status:</b> Single
+          <b className="text-white">Status:</b> Single
         </p>
         <p>
-          <b>Location:</b> Bangkok
+          <b className="text-white">Location:</b> Bangkok
         </p>
       </div>
     </div>
