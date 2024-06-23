@@ -16,8 +16,8 @@ type Props = {};
 const Skill = (props: Props) => {
   return (
     <Card title="Skill">
-      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        <div className="text-center font-semibold">
+      <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 font-semibold">
+        <div className="text-center">
           <FontAwesomeIcon icon={faPhp} style={{color: "#c20000",}} className="h-10 " />
           <p className="text-white">PHP</p>
         </div>
