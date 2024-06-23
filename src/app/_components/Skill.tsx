@@ -38,7 +38,7 @@ const Skill = (props: Props) => {
           <p className="text-white">Java</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faJs} className="h-10 bg-red-900" />
+        <FontAwesomeIcon icon={faJs} style={{color: "#c20000",}} className="h-10" />
           <p className="text-white">JS</p>
         </div>
         <div className="text-center">
