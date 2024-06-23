@@ -8,7 +8,7 @@ const Profile = (props: Props) => {
     <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
       <div className="flex justify-center items-center pt-4 pb-2">
         <Image
-          src="/profile.webp"
+          src="https://img5.pic.in.th/file/secure-sv1/448271118_451485737746935_5538182633225395576_n5ad2b8b1391f4d1f.md.jpg"
           width={500}
           height={500}
           alt="profile picture"
@@ -16,7 +16,7 @@ const Profile = (props: Props) => {
         />
       </div>
       <div className="text-center">
-        <h1 className="text-2xl font-bold">John Farmer</h1>
+        <h1 className="text-2xl font-bold">Chakrit Norm</h1>
         <p className="text-base">Software Engineer</p>
       </div>
 
