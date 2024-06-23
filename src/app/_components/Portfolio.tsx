@@ -13,7 +13,7 @@ const Portfolio = (props: Props) => {
               href="https://github.com/golang/go"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white bg-red-900"
+              className="text-white bg-red-900 rounded-lg"
             >
               Go - Programming Language
             </a>
@@ -23,7 +23,7 @@ const Portfolio = (props: Props) => {
               href="https://github.com/wu-web-camp/web-profile-2024"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-white bg-red-900"
+              className="text-white bg-red-900 rounded-lg"
             >
               web-profile-2024 - Personal Website
             </a>
