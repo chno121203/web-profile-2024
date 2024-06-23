@@ -6,7 +6,7 @@ type Props = {
 
 const Card = (props: React.PropsWithChildren<Props>) => {
   return (
-    <div className="bg-black h-full p-4 rounded-xl px-4">
+    <div className="bg-black-200 h-full p-4 rounded-xl px-4">
       <h1 className="text-2xl font-bold pb-4 text-white">{props.title}</h1>
       {props.children}
     </div>
