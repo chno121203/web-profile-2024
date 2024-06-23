@@ -5,7 +5,7 @@ type Props = {};
 
 const Profile = (props: Props) => {
   return (
-    <div className="bg-black h-full p-4 rounded-xl px-4">
+    <div className="bg-slate-700 h-full p-4 rounded-xl px-4">
       <div className="flex justify-center items-center pt-4 pb-2">
         <Image
           src="/mypro.jpg"
