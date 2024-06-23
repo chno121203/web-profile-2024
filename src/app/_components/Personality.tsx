@@ -13,7 +13,7 @@ const Personality = (props: Props) => {
           Adventurers are flexible and charming, always ready to explore and
           experience something new.
         </p>
-        <div className=" text-2xl flex gap-1 bg-red-900">
+        <div className=" flex gap-1 ">
           <Badge>INTROVERTED</Badge>
           <Badge>OBSERVANT</Badge>
           <Badge>FEELING</Badge>
