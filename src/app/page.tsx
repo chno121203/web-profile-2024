@@ -13,17 +13,17 @@ export default function Home() {
     <div className="container mx-auto pt-4">
       <div className="flex gap-4 justify-end pb-4">
         <div>
-          <Link href="/" className="hover:text-white bg-red-900 text-2xl ">
+          <Link href="/" className="hover:text-white bg-red-900 text-2xl rounded-lg ">
             Profile
           </Link>
         </div>
         <div>
-          <Link href="/blog" className="hover:text-black text-2xl">
+          <Link href="/blog" className="hover:text-black text-2xl ">
             Blog
           </Link>
         </div>
       </div>
-      <div className="grid grid-flow-col grid-cols-8 gap-4">
+      <div className="grid grid-flow-col grid-cols-8 gap-4 rounded-lg">
         <div className="col-span-2">
           <Profile />
         </div>
