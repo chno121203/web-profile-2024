@@ -18,36 +18,36 @@ const Skill = (props: Props) => {
     <Card title="Skill">
       <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
         <div className="text-center">
-          <FontAwesomeIcon icon={faPhp} className="h-10" />
-          <p>PHP</p>
+          <FontAwesomeIcon icon={faPhp} className="h-10 bg-red-900" />
+          <p className="text-white">PHP</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faPython} className="h-10" />
-          <p>Python</p>
+          <FontAwesomeIcon icon={faPython} className="h-10 bg-red-900" />
+          <p className="text-white">Python</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faRust} className="h-10" />
-          <p>Rust</p>
+          <FontAwesomeIcon icon={faRust} className="h-10 bg-red-900" />
+          <p className="text-white">Rust</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faReact} className="h-10" />
-          <p>React</p>
+          <FontAwesomeIcon icon={faReact} className="h-10 bg-red-900" />
+          <p className="text-white">React</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faJava} className="h-10" />
-          <p>Java</p>
+          <FontAwesomeIcon icon={faJava} className="h-10 bg-red-900" />
+          <p className="text-white">Java</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faJs} className="h-10" />
-          <p>JS</p>
+          <FontAwesomeIcon icon={faJs} className="h-10 bg-red-900" />
+          <p className="text-white">JS</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faDocker} className="h-10" />
-          <p>Docker</p>
+          <FontAwesomeIcon icon={faDocker} className="h-10 bg-red-900" />
+          <p className="text-white">Docker</p>
         </div>
         <div className="text-center">
-          <FontAwesomeIcon icon={faVuejs} className="h-10" />
-          <p>Vue.js</p>
+          <FontAwesomeIcon icon={faVuejs} className="h-10 bg-red-900" />
+          <p className="text-white">Vue.js</p>
         </div>
       </div>
     </Card>
